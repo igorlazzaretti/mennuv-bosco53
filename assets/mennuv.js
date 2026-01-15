@@ -49,14 +49,14 @@ const produtosData = [
         nome: 'Bruschetta ',
         preco: 'R$ 25,00',
         descricao: 'Clássica bruschetta com tomates e manjericão fresco.',
-        src: '../assets/videos/bruchet.mp4',
+        src: 'assets/videos/bruchet.mp4',
     },
     {
         categoria: 'sazonais',
         nome: 'Torrada Italiana',
         preco: 'R$ 20,00',
         descricao: 'Torrada italiana com tomates e manjericão fresco.',
-        imagem: '../assets/images/torrada.png',
+        imagem: './assets/images/torrada.png',
     },
     {
         categoria: 'tortas',
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
         header.className = 'mb-10 flex items-end justify-between border-b border-brand-green/10 pb-6';
         header.innerHTML = `
             <div>
-                <h2 class="font-display text-4xl text-brand-green">${cat.nome}</h2>
+                <h2 class="font-display text-4xl text-brand-green uppercase tracking-tight">${cat.nome}</h2>
                 <p class="text-brand-green/60 font-body mt-2 italic">${cat.descricao}</p>
             </div>
         `;
