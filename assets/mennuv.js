@@ -152,7 +152,7 @@ const produtosData = [
         nome: 'Bruschetta ',
         preco: 'R$ 25,00',
         descricao: 'Clássica bruschetta com tomates e manjericão fresco.',
-        src: './assets/videos/bruchet.mp4',
+        src: './assets/videos/bruchet2.mp4',
     },
     {
         categoria: 'salgados',
@@ -161,7 +161,21 @@ const produtosData = [
         descricao: 'Batata frita com molho especial.',
         src: './assets/videos/batata.mp4',
     },
-        {
+    {
+        categoria: 'salgados',
+        nome: 'Hamburguer com Batata',
+        preco: 'R$ 23,90',
+        descricao: 'Batata frita com molho especial.',
+        src: './assets/videos/hamburguer780p.mp4',
+    },
+    {
+        categoria: 'salgados',
+        nome: 'Hamburguer com Batata',
+        preco: 'R$ 23,90',
+        descricao: 'Batata frita com molho especial.',
+        src: './assets/videos/5688.MOV',
+    },
+    {
         categoria: 'salgados',
         nome: 'Quiche de Milho com Bacon',
         preco: 'R$ 13,90',
@@ -174,28 +188,28 @@ const produtosData = [
         nome: 'Fatia de Torta de Limão com Chocolate Amargo',
         preco: 'R$ 17,00',
         descricao: 'Fatia de torta de limão com chocolate amargo.',
+        src: './assets/videos/Vídeo_de_Torta_de_Limão_e_Chocolate.webm',
+    },
+    {
+        categoria: 'tortas',
+        nome: 'Fatia de Torta de Limão com Chocolate Amargo',
+        preco: 'R$ 17,00',
+        descricao: 'Fatia de torta de limão com chocolate amargo.',
+        src: './assets/videos/Vídeo_de_Torta_de_Limão_e_Chocolate.webm',
+    },
+    {
+        categoria: 'tortas',
+        nome: 'Fatia de Torta de Limão com Chocolate Amargo',
+        preco: 'R$ 17,00',
+        descricao: 'Fatia de torta de limão com chocolate amargo.',
+        src: './assets/videos/Vídeo_de_Torta_de_Limão_e_Chocolate.webm',
+    },
+    {
+        categoria: 'tortas',
+        nome: 'Fatia de Torta de Limão com Chocolate Amargo',
+        preco: 'R$ 17,00',
+        descricao: 'Fatia de torta de limão com chocolate amargo.',
         imagem: './assets/images/Imagem_de_Torta_de_Limão_e_Chocolate.png',
-    },
-    {
-        categoria: 'tortas',
-        nome: 'Fatia de Torta de Limão com Chocolate Amargo',
-        preco: 'R$ 17,00',
-        descricao: 'Fatia de torta de limão com chocolate amargo.',
-        src: './assets/videos/Vídeo_de_Torta_de_Limão_e_Chocolate.webm',
-    },
-    {
-        categoria: 'tortas',
-        nome: 'Fatia de Torta de Limão com Chocolate Amargo',
-        preco: 'R$ 17,00',
-        descricao: 'Fatia de torta de limão com chocolate amargo.',
-        src: './assets/videos/Vídeo_de_Torta_de_Limão_e_Chocolate.webm',
-    },
-    {
-        categoria: 'tortas',
-        nome: 'Fatia de Torta de Limão com Chocolate Amargo',
-        preco: 'R$ 17,00',
-        descricao: 'Fatia de torta de limão com chocolate amargo.',
-        src: './assets/videos/Vídeo_de_Torta_de_Limão_e_Chocolate.webm',
     },
     // Cafés, Cafés Gelados, Expressos e Elaborados
     {
